@@ -136,4 +136,51 @@ nav img {
         border-radius: 50%;
         
 } 
+/* ------- testimonal ----------- */
+
+.testimonal {
+    padding: 120px 0 120px 0;
+    background-color: #C271FF;
+    /* height: 30vh; */
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonal > div {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.testimonal div  img {
+    border-radius: 50%;
+    margin-right: 6%;
+}
+
+.testimonal > div > div {
+    width: 45%;
+}
+
+.testimonal blockquote {
+
+    padding-bottom: 25px;
+    font-size: 22px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.testimonal h2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+.testimonal p {
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+}
 
