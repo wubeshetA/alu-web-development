@@ -114,10 +114,11 @@ nav img {
 
 .pros h2 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 300;
     font-family: 'Source Sans Pro';
     font-style: normal;
 }
+
 .pros h2 b {
     color: #C271FF;
 
@@ -184,3 +185,81 @@ nav img {
     font-size: 22px;
 }
 
+/* --------- video --------- */
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin: 6% 0 4% 0;
+}
+
+.videos h1 b {
+    color: #C271FF;
+}
+
+.videos .video-row {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.videos .video-row .video-col {
+    margin: 1%;
+}
+
+.videos .video-col > img {
+    width: 255px;
+    height: 154px;
+    background: #D8D8D8;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 15px;
+}
+
+.videos .video-col h2 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.videos .video-col h2 ~ p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5);
+    margin-bottom: 15px;
+}
+
+.video-col .rater {
+    display: flex;
+}
+.rater img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.rater h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #C271FF;
+    align-self: center;
+}
+
+.video-col .rater+div p {
+    color: #C271FF;
+    float: right;
+    margin-right: 20px;
+}
