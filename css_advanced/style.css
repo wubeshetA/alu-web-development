@@ -327,3 +327,50 @@ nav img {
     padding-left: 20px;
     cursor: pointer;
 }
+
+/* -------FAQ---------- */
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+
+.faq h1 {
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.faq>div {
+    margin: 60px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-col div {
+    margin: 100px;
+    margin-top: 0px;
+
+    /* margin: 0 100 100; */
+}
+
+.faq p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.faq h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #071629;
+    margin-bottom: 20px;
+}
